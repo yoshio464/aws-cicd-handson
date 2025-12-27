@@ -23,7 +23,7 @@ phases:
       - |
         echo '[
           {
-            "name": "cicd-handson",
+            "name": "cloudtech-cicd-handson",
             "imageUri": "'${ECR_REPOSITORY}':latest"
           }
         ]' > imagedefinitions.json
